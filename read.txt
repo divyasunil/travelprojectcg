@@ -1,0 +1,69 @@
+Python
+Env name:cg
+folder Name: travelprojects
+
+
+
+pip install virtualenvwrapper-win
+mkvirtualenv pythoncg
+pip install django
+
+mkdir travelprojectcg
+cd travelprojectcg
+django-admin startproject
+django-admin startproject travelprojectcg
+cd travelprojectcg
+python manage.py startapp travelappcg
+python manage.py runserver
+
+virtual env democg
+demoprojectcg
+
+
+
+ py manage.py makemigrations
+ py manage.py migrate
+
+
+create DB cg_travelproject
+
+ py -m pip install mysqlclient
+
+ Python
+Env name:cg
+folder Name: travelprojects
+
+
+
+pip install virtualenvwrapper-win
+mkvirtualenv pythoncg
+pip install django
+
+
+
+
+mkdir travelprojectcg
+cd travelprojectcg
+django-admin startproject
+django-admin startproject travelprojectcg
+cd travelprojectcg
+python manage.py startapp travelappcg
+python manage.py runserver
+
+virtual env democg
+demoprojectcg
+
+
+
+ py manage.py makemigrations
+ py manage.py migrate
+
+Usename:divyasunil
+Email address: divyaindu13@gmail.com
+Password:12345
+
+
+
+
+
+
