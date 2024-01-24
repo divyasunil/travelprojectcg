@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'travelappcg',
+    'credentials',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
