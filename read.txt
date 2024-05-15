@@ -65,5 +65,88 @@ Password:12345
 
 
 
+***********************************************************************
+Python Anywhere
+***********************************************************************
+username: divyaimakes
+email: divya24rohith@gmail.com
+p: divyaR@13
+
+
+
+bash:
+pwd
+mkvirtualenv ttest --python=/usr/bin/python3.6
+git clone https://github.com/divyasunil/travelprojectcg
+ls
+# move inside the folder where manage.py present
+cd travelprojectcg/
+
+pip install django
+pip install mysql-connector-python
+pip install pillow
+pip install mysqlclient
+
+create web app
+manual config
+python3.6
+
+edit WSGI configuration file:/var/www/divyarohith_pythonanywhere_com_wsgi.py
+keep only DJANGO code
+
+update path with manage.py file path
+get using pwd in bash
+path = '/home/divyainmakes/travelprojectcg'
+get  folder of settings.py file
+os.environ['DJANGO_SETTINGS_MODULE'] = 'travelprojectcg.settings'
+save the file
+
+edit settings.py
+ALLOWED_HOSTS = ['*']
+
+Create Database
+set password : divyaCG@12345
+ set database name : traveldatabase
+
+
+sql
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'divyainmakes$traveldatabase',
+        'USER': 'divyainmakes',
+        'PASSWORD': 'divyaCG@12345',
+        'HOST': 'divyainmakes.mysql.pythonanywhere-services.com',
+        'PORT': '3306',
+    }
+}
+
+set virtual env in webapp page
+/home/divyainmakes/.virtualenvs/ttest
+
+set static file path
+/home/divyainmakes/travelprojectcg/static
+URL	: /static/
+Directory: /home/divyainmakes/travelprojectcg/static
+
+migrations
+got to ->>>  /home/divyainmakes/travelprojectcg/travelappcg/migrations
+delete all files except __init__.py 
+
+open console-->> mysql console
+mysql>show databases;
+
+in bash console
+ python manage.py makemigrations
+ python manage.py migrate
+
+python manage.py runserver 8002
+
+https://divyainmakes.pythonanywhere.com/
+
+
+
+
+
 
 
