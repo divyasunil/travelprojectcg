@@ -58,6 +58,8 @@ demoprojectcg
  py manage.py makemigrations
  py manage.py migrate
 
+ py manage.py createsuperuser
+
 Usename:divyasunil
 Email address: divyaindu13@gmail.com
 Password:12345
